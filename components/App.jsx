@@ -7,12 +7,12 @@ class App extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state={ items:[ {value:'Sample value','completed':false},
-                                             {value:'Sample value 1','completed':true},
-                                             {value:'Sample value 2','completed':true},
-                                    {value:'Sample value 2 sadsa','completed':true}
-                                ]}
-
+        this.state={
+            items:[ {value:'Sample value','completed':false},
+                     {value:'Sample value 1','completed':true},
+                     {value:'Sample value 2','completed':true},
+                     {value:'Sample value 3','completed':true}
+                    ]}
     }
     componentWillMount() {
 
