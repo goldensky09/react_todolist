@@ -50,7 +50,7 @@ class App extends React.Component {
     render() {
       return (
          <div className='container'>
-              <h1>To Do App using react with Redux</h1>
+              <h1>To Do App using React</h1>
               <NewToDo onadd={this.onadd} ></NewToDo>
                <TodoList onchange={this.onchange} onremove={this.onremove} items={this.state.items}></TodoList>
                <Button className="btn btn-primary" onClick={this.clear}>Clear</Button>
