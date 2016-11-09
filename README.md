@@ -163,7 +163,7 @@ render(){
 ```
     
 ###Just for knowledge
-Benefit of using arrow function.
+####Benefit of using arrow function.
 Checkout the onadd function below, and check the binding on context in constructor
 ```sh
     class App extends React.Component {
@@ -184,6 +184,15 @@ Making same onadd function as arrow function does not need binding context as it
         onadd = (ev) => {...}
     }
 ```
+####PropTypes
+To run typechecking on the props for a component, you can assign the special propTypes property. Refer https://facebook.github.io/react/docs/typechecking-with-proptypes.html 
+```sh
+TodoItem.propTypes={
+    item: PropTypes.object.isRequired,
+    index: PropTypes.number.isRequired
+}
+```
+
     
 
 
