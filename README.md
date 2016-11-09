@@ -2,8 +2,8 @@
 
 This is the sample To Do List application using React, ES6, Bootstrap, Babel, Webpack
 
-### pre requisites
-Install Nodejs
+### Pre requisites
+Nodejs and NPM
 
 ### To run application, download/clone and use below command
 
@@ -14,15 +14,32 @@ npm start
 
 And visit <http://localhost:8080/>.
 
-## How I built starting from scratch
+## How I built
+install Global packeges
+```sh
+C:\Users\username>npm install -g babel
+C:\Users\username>npm install -g babel-cli
+```
+Add global Dependencies 
+```sh
+C:\Users\username>npm install webpack --save
+C:\Users\username>npm install webpack-dev-server --save
+```
+create application root folder and install plugins in root folder
+```sh
+npm install react --save
+npm install react-dom --save
+npm install babel-core
+npm install babel-loader
+npm install babel-preset-react
+npm install babel-preset-es2015
+npm install --save-dev babel-preset-stage-1
+npm install --save react-bootstrap
+```
+init you application
 ```sh
 npm init
-npm install --save react
-npm install --save react-bootstrap
-npm install --save react-dom
-npm install --save webpack
-npm install --save webpack-dev-server
-npm install --save-dev babel-preset-stage-1
+
 ```
 ###open package.json
 make sure script key looks like below
