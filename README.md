@@ -1,6 +1,8 @@
 # To Do List
 
 This is the sample To Do List application using React, ES6, Bootstrap, Babel, Webpack
+## React
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces. Refer https://facebook.github.io/react/tutorial/tutorial.html
 
 ### Pre requisites
 Nodejs and NPM
